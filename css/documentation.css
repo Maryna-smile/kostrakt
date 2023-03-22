@@ -1,0 +1,64 @@
+/* body {
+  position: relative;
+  background-image: url(../images/detail.png);
+  background-repeat: no-repeat;
+} */
+.detail-img {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  width: 760px;
+  /* height: 760px; */
+ z-index: -1;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lang {
+}
+.cirsive {
+}
+.underline {
+}
+.highlighted {
+}
+.nav {
+}
+.logo-img {
+  width: 238px;
+height: 54px;
+}
+.aside__list {
+}
+.aside__item {
+}
+
+.chapter1, .chapter2, .chapter3, .chapter4   {
+}
+.title {
+}
+.upper-title {
+}
+.text {
+}
+.consept__list {
+}
+.bolt {
+}
