@@ -15,10 +15,12 @@ body {
   /* height: 760px; */
   z-index: -1;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .header {
   padding-top: 13px;
   position: sticky;
@@ -37,11 +39,13 @@ body {
   gap: 50px;
   margin-bottom: 70px;
 }
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .lang {
   font-family: Tourney;
   font-weight: 600;
@@ -49,6 +53,7 @@ body {
   line-height: 0.8;
   letter-spacing: 4%;
 }
+
 .nav {
   gap: 10px;
   font-family: "Staatliches";
@@ -74,25 +79,22 @@ body {
   height: 54px;
   align-self: start;
 }
+
 .flex-wrapper {
   position: relative;
   display: flex;
   justify-content: space-between;
   gap: 30px;
- 
-  /* overflow: hidden; */
 }
+
 .aside {
   position: sticky;
   top: 60px;
+  padding-top: 60px;
   width: 385px;
-  overflow: hidden;
+  height: max-content;
 }
-/* .aside__list {
-  position: sticky;
-  top: 60px;
-  width: 385px;
-  } */
+
 .aside__item {
   font-family: "Francois One";
   font-style: normal;
@@ -104,18 +106,13 @@ body {
   border-bottom: 1px solid #bdbdbd;
   margin-bottom: 70px;
 }
-/* .aside__item::after {
-content:'';
-display: block;
-height: 1px;
-width: 100%;
-background-color: #BDBDBD;
-} */
+
 .main {
   width: 790px;
   overflow: auto;
   padding-top: 25px;
 }
+
 .chapter1,
 .chapter2,
 .chapter3 {
@@ -138,6 +135,7 @@ background-color: #BDBDBD;
 .upper-title1 {
   position: relative;
 }
+
 .upper-title1::after {
   position: absolute;
   content: "Chapter 1";
@@ -159,6 +157,7 @@ background-color: #BDBDBD;
 .upper-title2 {
   position: relative;
 }
+
 .upper-title2::after {
   position: absolute;
   content: "Chapter 2";
@@ -170,9 +169,11 @@ background-color: #BDBDBD;
   text-transform: none;
   bottom: 28px;
 }
+
 .upper-title3 {
   position: relative;
 }
+
 .upper-title3::after {
   position: absolute;
   content: "Chapter 3";
@@ -184,9 +185,11 @@ background-color: #BDBDBD;
   text-transform: none;
   bottom: 28px;
 }
+
 .upper-title4 {
   position: relative;
 }
+
 .upper-title4::after {
   position: absolute;
   content: "Chapter 4";
@@ -198,6 +201,7 @@ background-color: #BDBDBD;
   text-transform: none;
   bottom: 28px;
 }
+
 .title {
   font-family: "Francois One";
   font-style: normal;
@@ -212,6 +216,7 @@ background-color: #BDBDBD;
 .text {
 margin-bottom: 40px;
 }
+
 .consept__list {
   margin-bottom: 40px;
 }
